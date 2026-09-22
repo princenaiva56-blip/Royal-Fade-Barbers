@@ -83,29 +83,24 @@ grid-template-columns:repeat(2,1fr);
 
 }
 
-
 @media(max-width:576px){
 
     #hero{
-        min-height:100svh;
+        min-height:100vh;
         padding-left:0;
-        position:relative;
+
+        background-position:center center;
+        background-size:cover;
     }
 
     .navbar{
-        position:absolute;
-        top:0;
-        left:0;
-        width:100%;
         padding:8px 5%;
     }
 
     .hero-content{
-        flex:1;
-        justify-content:center;
-        padding:5rem 8% 3rem;
+        padding:2rem 8% 3rem;
         transform:none;
-        max-width:none;
+        justify-content:center;
     }
 
     .hero-content h1{
