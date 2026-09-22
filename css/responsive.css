@@ -86,7 +86,7 @@ grid-template-columns:repeat(2,1fr);
 @media(max-width:576px){
 
     #hero{
-        min-height:100vh;
+        max-height: 50vh;
         padding-left:0;
 
         background-position:center center;
